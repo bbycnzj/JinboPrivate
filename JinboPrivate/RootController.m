@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     _appLists = [[NSMutableArray alloc] init];
-    _fileMoves = [[NSMutableSet alloc] init];
+    _fileMoves = [[NSMutableArray alloc] init];
     _table.delegate = self;
     _table.dataSource = self;
     
@@ -64,6 +64,7 @@
 - (IBAction)doBianli:(id)sender
 {
     _isAppList = YES;
+    [_appLists removeAllObjects];
     
     NSString *path = @"/var/mobile/Applications/";
     NSFileManager *fm = [NSFileManager defaultManager];
@@ -137,7 +138,7 @@
         [dict writeToFile:libPath atomically:YES];
     }
     
-    [_table reloadData];
+    [self doFileList:nil];
 }
 
 - (IBAction)doRemoveFile:(id)sender
@@ -169,7 +170,11 @@
         [fm moveItemAtPath:toFilePath toPath:filePath error:nil];
     }
     
-    [_table reloadData];
+    [_fileMoves removeAllObjects];
+    dict = [NSDictionary dictionaryWithObject:_fileMoves forKey:_textUUID.text];
+    [dict writeToFile:libPath atomically:YES];
+    
+    [self doFileList:nil];
 }
 
 

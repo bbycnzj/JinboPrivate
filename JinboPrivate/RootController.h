@@ -11,7 +11,7 @@
 @interface RootController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
     NSMutableArray  *_appLists;
     NSArray         *_appSearchLists;
-    NSMutableSet    *_fileMoves;
+    NSMutableArray  *_fileMoves;
     
     BOOL _isAppList;
     
