@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F640413115874C9F00BA7F64 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F640413015874C9F00BA7F64 /* AppInfo.m */; };
+		F678239F15897FE5000085B5 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F678239D15897FE5000085B5 /* LoginController.m */; };
+		F67823A015897FE5000085B5 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F678239E15897FE5000085B5 /* LoginController.xib */; };
+		F67823A51589816D000085B5 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F67823A31589816D000085B5 /* Default-Landscape.png */; };
+		F67823A61589816D000085B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F67823A41589816D000085B5 /* Default.png */; };
+		F67823A815898CE8000085B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F67823A715898CE8000085B5 /* Icon.png */; };
+		F6EF105A1581E631001C1F67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EF10591581E631001C1F67 /* UIKit.framework */; };
+		F6EF105C1581E631001C1F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EF105B1581E631001C1F67 /* Foundation.framework */; };
+		F6EF105E1581E631001C1F67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EF105D1581E631001C1F67 /* CoreGraphics.framework */; };
+		F6EF10641581E631001C1F67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EF10621581E631001C1F67 /* InfoPlist.strings */; };
+		F6EF10661581E631001C1F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EF10651581E631001C1F67 /* main.m */; };
+		F6EF106A1581E631001C1F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EF10691581E631001C1F67 /* AppDelegate.m */; };
+		F6EF106D1581E631001C1F67 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EF106C1581E631001C1F67 /* RootController.m */; };
+		F6EF10701581E631001C1F67 /* RootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EF106E1581E631001C1F67 /* RootController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F640412F15874C9F00BA7F64 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		F640413015874C9F00BA7F64 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		F678239C15897FE5000085B5 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		F678239D15897FE5000085B5 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		F678239E15897FE5000085B5 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		F67823A31589816D000085B5 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Images/Default-Landscape.png"; sourceTree = "<group>"; };
+		F67823A41589816D000085B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		F67823A715898CE8000085B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		F6EF10551581E631001C1F67 /* JinboPrivate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JinboPrivate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EF10591581E631001C1F67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6EF105B1581E631001C1F67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6EF105D1581E631001C1F67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6EF10611581E631001C1F67 /* JinboPrivate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JinboPrivate-Info.plist"; sourceTree = "<group>"; };
+		F6EF10631581E631001C1F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6EF10651581E631001C1F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6EF10671581E631001C1F67 /* JinboPrivate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JinboPrivate-Prefix.pch"; sourceTree = "<group>"; };
+		F6EF10681581E631001C1F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6EF10691581E631001C1F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6EF106B1581E631001C1F67 /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		F6EF106C1581E631001C1F67 /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		F6EF106F1581E631001C1F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EF10521581E631001C1F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF105A1581E631001C1F67 /* UIKit.framework in Frameworks */,
+				F6EF105C1581E631001C1F67 /* Foundation.framework in Frameworks */,
+				F6EF105E1581E631001C1F67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F67823A21589815E000085B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F67823A715898CE8000085B5 /* Icon.png */,
+				F67823A31589816D000085B5 /* Default-Landscape.png */,
+				F67823A41589816D000085B5 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6EF104A1581E631001C1F67 = {
+			isa = PBXGroup;
+			children = (
+				F6EF105F1581E631001C1F67 /* JinboPrivate */,
+				F6EF10581581E631001C1F67 /* Frameworks */,
+				F6EF10561581E631001C1F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EF10561581E631001C1F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EF10551581E631001C1F67 /* JinboPrivate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EF10581581E631001C1F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6EF10591581E631001C1F67 /* UIKit.framework */,
+				F6EF105B1581E631001C1F67 /* Foundation.framework */,
+				F6EF105D1581E631001C1F67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6EF105F1581E631001C1F67 /* JinboPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				F6EF10681581E631001C1F67 /* AppDelegate.h */,
+				F6EF10691581E631001C1F67 /* AppDelegate.m */,
+				F6EF106B1581E631001C1F67 /* RootController.h */,
+				F6EF106C1581E631001C1F67 /* RootController.m */,
+				F6EF106E1581E631001C1F67 /* RootController.xib */,
+				F678239C15897FE5000085B5 /* LoginController.h */,
+				F678239D15897FE5000085B5 /* LoginController.m */,
+				F678239E15897FE5000085B5 /* LoginController.xib */,
+				F640412F15874C9F00BA7F64 /* AppInfo.h */,
+				F640413015874C9F00BA7F64 /* AppInfo.m */,
+				F67823A21589815E000085B5 /* Resources */,
+				F6EF10601581E631001C1F67 /* Supporting Files */,
+			);
+			path = JinboPrivate;
+			sourceTree = "<group>";
+		};
+		F6EF10601581E631001C1F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6EF10611581E631001C1F67 /* JinboPrivate-Info.plist */,
+				F6EF10621581E631001C1F67 /* InfoPlist.strings */,
+				F6EF10651581E631001C1F67 /* main.m */,
+				F6EF10671581E631001C1F67 /* JinboPrivate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EF10541581E631001C1F67 /* JinboPrivate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EF10731581E631001C1F67 /* Build configuration list for PBXNativeTarget "JinboPrivate" */;
+			buildPhases = (
+				F6EF10511581E631001C1F67 /* Sources */,
+				F6EF10521581E631001C1F67 /* Frameworks */,
+				F6EF10531581E631001C1F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JinboPrivate;
+			productName = JinboPrivate;
+			productReference = F6EF10551581E631001C1F67 /* JinboPrivate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EF104C1581E631001C1F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F6EF104F1581E631001C1F67 /* Build configuration list for PBXProject "JinboPrivate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6EF104A1581E631001C1F67;
+			productRefGroup = F6EF10561581E631001C1F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EF10541581E631001C1F67 /* JinboPrivate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6EF10531581E631001C1F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF10641581E631001C1F67 /* InfoPlist.strings in Resources */,
+				F6EF10701581E631001C1F67 /* RootController.xib in Resources */,
+				F67823A015897FE5000085B5 /* LoginController.xib in Resources */,
+				F67823A51589816D000085B5 /* Default-Landscape.png in Resources */,
+				F67823A61589816D000085B5 /* Default.png in Resources */,
+				F67823A815898CE8000085B5 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EF10511581E631001C1F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF10661581E631001C1F67 /* main.m in Sources */,
+				F6EF106A1581E631001C1F67 /* AppDelegate.m in Sources */,
+				F6EF106D1581E631001C1F67 /* RootController.m in Sources */,
+				F640413115874C9F00BA7F64 /* AppInfo.m in Sources */,
+				F678239F15897FE5000085B5 /* LoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6EF10621581E631001C1F67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EF10631581E631001C1F67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6EF106E1581E631001C1F67 /* RootController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EF106F1581E631001C1F67 /* en */,
+			);
+			name = RootController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6EF10711581E631001C1F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F6EF10721581E631001C1F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6EF10741581E631001C1F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JinboPrivate/JinboPrivate-Prefix.pch";
+				INFOPLIST_FILE = "JinboPrivate/JinboPrivate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6EF10751581E631001C1F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JinboPrivate/JinboPrivate-Prefix.pch";
+				INFOPLIST_FILE = "JinboPrivate/JinboPrivate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EF104F1581E631001C1F67 /* Build configuration list for PBXProject "JinboPrivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EF10711581E631001C1F67 /* Debug */,
+				F6EF10721581E631001C1F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EF10731581E631001C1F67 /* Build configuration list for PBXNativeTarget "JinboPrivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EF10741581E631001C1F67 /* Debug */,
+				F6EF10751581E631001C1F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EF104C1581E631001C1F67 /* Project object */;
+}
